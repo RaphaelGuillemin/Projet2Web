@@ -1,0 +1,88 @@
+<!-- Travail de Laura Begin et Raphael Guillemin -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Computorial | Contact</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="formations.html">Formations</a>
+                <a href="design.html">Design</a>
+                <a href="a_propos.html">À propos</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h3>Contact</h3>
+            <div id="trois">
+                <div class="premier">
+                    <h6>Bureau de Montréal</h6>
+                    <p>5987-A, boul. René-Lévesque,<br>
+                        Montréal, Qc, H6V 1N7<br>
+                        <a href="tel:123456789">514-353-6754</a><br>
+                        <a href="mailto:me@gmail.com">montreal@computorial.com</a>
+                    </p>
+                </div>
+                <div class="deuxieme">
+                    <h6>Bureau de Québec</h6>
+                    <p>673, Bureau 2A, boul. Laurier,<br>
+                        Québec, Qc, G2R 1J3<br>
+                        <a href="tel:123456789">418-348-9076</a><br>
+                        <a href="mailto:me@gmail.com">quebec@computorial.com</a>
+                    </p>
+                </div>
+                <div class="troisieme">
+                    <h6>Bureau de Sherbrooke</h6>
+                    <p>4560, boul. Bourque,<br>
+                        Sherbrooke, Qc, J4V 1M2<br>
+                        <a href="1234567890">450-768-9876</a><br>
+                        <a href="mailto:me@gmail.com">sherbrooke@computorial.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="form">
+                <p>Vous souhaitez réserver une formation ou obtenir plus de renseignements? Faites une demande de
+                    soumission et l'un de nos conseillers prendra contact avec vous sous peu.</p><br>
+                <p>Les informations obligatoires sont marquées d'un astérisque (*).</p>
+                <form method="post" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+                    <label for="Prenom" id="labelPrenom">* Prénom :</label>
+                    <input type="text" name="Prénom" id="Prenom" required="required">
+                    <label for="Nom">* Nom :</label>
+                    <input type="text" name="Nom" id="Nom" required="required">
+                    <label for="Entreprise">Entreprise :</label>
+                    <input type="text" name="Entreprise" id="Entreprise">
+                    <label for="Email">* Email :</label>
+                    <input type="email" name="Email" id="Email" required="required">
+                    <label for="Telephone">* Téléphone :</label>
+                    <input type="tel" name="Telephone" id="Telephone" pattern="[0-9]{10,11}" required="required">
+                    <label for="Commentaires">* Commentaires :</label>
+                    <textarea name="Commentaires" id="Commentaires" rows="2" cols="20" required="required"></textarea>
+                    <input id="soumettre" type="submit" value="Soumettre">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <p id="footer">Computorial<br>
+                <small>&copy; Computorial 2018<br>
+                    Laura Bégin & Raphaël Guillemin<br>
+                    Tous droits réservés</small></p>
+            <div id="reseaux">
+                <a href="http://www.facebook.com"><img src="Images/facebook.png" alt="facebook" id="imgReseaux">Facebook</a><br>
+                <a href="http://www.linkedin.com"><img src="Images/linkedin.png" alt="linkedin" id="imgReseaux">LinkedIn</a><br>
+                <a href="http://www.twitter.com"><img src="Images/twitter.png" alt="twitter" id="imgReseaux">Twitter</a><br>
+                <a href="http://www.instagram.com"><img src="Images/instagram.png" alt="instagram" id="imgReseaux">Instagram</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
